@@ -1,0 +1,52 @@
+/* General container styling */
+.container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Input and button container styling */
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  /* Input field styling */
+  .input {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+  }
+  
+  /* Button styling */
+  .button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #ebffbd;
+    color: #bcd41b;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .button:disabled {
+    background-color: #909090;
+    color: #b74141;
+    cursor: not-allowed;
+  }
+  
+  /* QR code and additional buttons container */
+  .qr-container {
+    margin-top: 20px;
+  }
+  
+  .button-container {
+    margin-top: 10px;
+  }
+  
+  /* Error and success message styling */
+  .error {
+    color: red;
+  }
+  
+  .success {
+    color: green;
+  }
+  
